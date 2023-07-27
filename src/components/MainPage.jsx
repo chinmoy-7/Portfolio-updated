@@ -8,6 +8,7 @@ export default function MainPage() {
   const aboutRef = useRef(null);
   const homeRef=useRef(null)
   const resumeRef=useRef(null)
+  const skillRef=useRef(null)
   const scrollToAbout = () => {
     aboutRef.current.scrollIntoView({ behavior: 'smooth' });
   };
@@ -18,12 +19,15 @@ export default function MainPage() {
   const scrollToResume=()=>{
     resumeRef.current.scrollIntoView({behavior:"smooth"})
   }
+  const scrollToSkill=()=>{
+    skillRef.current.scrollIntoView({behavior:"smooth"})
+  }
 
   return (
     <>
     <div ref={homeRef}>
       <Landing 
-        props={{scrollToAbout,scrollToHome,scrollToResume}}
+        props={{scrollToAbout,scrollToHome,scrollToResume,scrollToSkill}}
       />
       </div>
       <div ref={aboutRef}>
@@ -32,7 +36,7 @@ export default function MainPage() {
       <div ref={resumeRef}>
       <Resume/>
       </div>
-      <div >
+      <div ref={skillRef}>
       <Skills/>
       </div>
     </>

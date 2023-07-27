@@ -43,7 +43,7 @@ export default function Landing({props}) {
                 <img src="home.png" onClick={props.scrollToHome} className="w-5/6 cursor-pointer hover:rounded-md hover:bg-gray-50"alt="" />
                 <img onClick={props.scrollToAbout} src="account.png "  className="w-5/6 cursor-pointer hover:rounded-md hover:bg-gray-50" alt="" />
                 <img onClick={props.scrollToResume} src="resume.png "  className="w-5/6 cursor-pointer hover:rounded-md hover:bg-gray-50" alt="" />
-                <img src="service.png "  className="w-5/6 cursor-pointer hover:rounded-md hover:bg-gray-50" alt="" />
+                <img onClick={props.scrollToSkill} src="service.png "  className="w-5/6 cursor-pointer hover:rounded-md hover:bg-gray-50" alt="" />
                 <img src="skills.png "  className="w-5/6 cursor-pointer hover:rounded-md hover:bg-gray-50" alt="" />
             </div>
         </div>
