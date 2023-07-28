@@ -13,7 +13,7 @@ function Skills() {
                 <div className="border-solid h-4/5 border-white border-2 rounded-3xl justify-center flex items-center hover:border-noiceGreen">
                 <img src="react.png" className="w-1/2" alt="" />
                 </div>
-                <h1 className="text-white mt-6">REACT</h1>
+                <h1 className="text-white mt-6">ReactJs</h1>
               </div>
               <div className="lg:w-1/4 lg:h-1/3 flex flex-col items-center  justify-center lg:ml-10">
                 <div className="border-solid h-4/5 border-white border-2 rounded-3xl justify-center flex items-center hover:border-noiceGreen">
@@ -37,7 +37,7 @@ function Skills() {
                 <div className="border-solid h-4/5 border-white border-2 rounded-3xl justify-center flex items-center hover:border-noiceGreen">
                 <img src="js.png" className="w-1/2" alt="" />
                 </div>
-                <h1 className="text-white mt-6">SQL</h1>
+                <h1 className="text-white mt-6">JavaScript</h1>
               </div>
           </div>
       </div>
